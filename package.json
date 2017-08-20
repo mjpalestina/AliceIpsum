@@ -1,11 +1,16 @@
 {
-  "name": "alice",
+  "name": "Alice in Lorem Ipsum Land",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "body-parser": "^1.17.2",
+    "mongojs": "^2.4.1",
+    "mongoose": "^4.11.7",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-scripts": "1.0.11"
+    "react-routing": "^0.0.7",
+    "react-scripts": "1.0.11",
+    "request": "^2.81.0"
   },
   "scripts": {
     "start": "react-scripts start",
