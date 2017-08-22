@@ -1,0 +1,27 @@
+{
+  "name": "alice_ipsum",
+  "version": "1.0.0",
+  "description": "Lorem Ipsum Using Alice in Wonderland",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcpalestina/AliceIpsum.git"
+  },
+  "author": "Marc Palestina",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/marcpalestina/AliceIpsum/issues"
+  },
+  "homepage": "https://github.com/marcpalestina/AliceIpsum#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0",
+    "mongojs": "^2.4.1",
+    "mongoose": "^4.11.7",
+    "request": "^2.81.0"
+  }
+}
