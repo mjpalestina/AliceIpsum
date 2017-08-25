@@ -1,8 +1,16 @@
 $(".quotebutton").click(function(){
 
-  var random_quote = quotes[Math.floor(Math.random()*quotes.length)];
+  var amount = $('#quote_amount').val();
 
-    $(".randomquote").html(random_quote);
+  for (i = 0; i < amount; i++ ) {
 
-    console.log(random_quote);
+    var random_quote = quotes[Math.floor(Math.random()*quotes.length)];
+
+      $(".randomquote").append(random_quote);
+
+      console.log(random_quote);
+      console.log(amount);
+  };
+
+
 });
