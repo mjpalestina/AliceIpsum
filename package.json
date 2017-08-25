@@ -18,6 +18,7 @@
   "homepage": "https://github.com/marcpalestina/AliceIpsum#readme",
   "dependencies": {
     "body-parser": "^1.17.2",
+    "clipboard": "^1.7.1",
     "express": "^4.15.4",
     "express-handlebars": "^3.0.0",
     "mongojs": "^2.4.1",

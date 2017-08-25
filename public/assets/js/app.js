@@ -1,3 +1,8 @@
+new Clipboard('.copybutton');
+$(".copybutton").click(function(){
+console.log("Copy Me Clicked");
+  });
+
 $(".quotebutton").click(function(){
 
   $(".randomquote").empty();
@@ -13,4 +18,5 @@ $(".quotebutton").click(function(){
       console.log(random_quote);
       console.log(amount);
   };
+
 });
