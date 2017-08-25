@@ -1,10 +1,14 @@
 // DEPENDENCIES
-const express = require("express");
-const path = require("path");
+const request = require('request');
+const express = require('express');
+const mongojs = require('mongojs');
+const mongoose = require("mongoose");
+const bodyParser = require("body-parser");
 const exphbs = require('express-handlebars');
 
 // CREATE INSTANCE OF express APP
 const app = express();
+app.use(express.static(__dirname + "/public"));
 
 // SET HANDLEBARS
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
