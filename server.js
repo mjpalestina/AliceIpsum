@@ -1,17 +1,16 @@
 // DEPENDENCIES
-const request = require('request');
-const express = require('express');
-const bodyParser = require("body-parser");
+const express = require("express");
+const path = require("path");
 const exphbs = require('express-handlebars');
 
 // CREATE INSTANCE OF express APP
 const app = express();
-app.use(express.static(__dirname + "/public"));
 
 // SET HANDLEBARS
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 
+// SET CONTROLLERS
 var routes = require("./controllers/controllers.js");
 app.use("/", routes);
 
