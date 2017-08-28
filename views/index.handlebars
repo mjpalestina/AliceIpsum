@@ -11,18 +11,19 @@
     <form class="col s12">
       <div class="row">
         <div class="input-field col s2">
-          <input id="quote_amount" type="number" class="validate" min="1" max="10">
+          <input id="quote_amount" type="number" class="validate" min="1" max="10" value="1">
           <label for="quote_amount" data-error="Number between 1-10" data-success="">Number of Paragraphs <small>(1 to 10)</small></label>
         </div>
-        <div class="col s4">
-          <input name="quote_type" type="radio" id="quote_paragraphs" checked><label for="quote_paragraphs">Paragraphs</label>
-          <input name="quote_type" type="radio" id="quote_lists"><label for="quote_lists">Lists</label>
-          <input name="quote_type" type="radio" id="quote_characters"><label for="quote_lists">Characters</label>
+        <div class="input-field col s4">
+          <select>
+            <option value="quote_paragraphs">Paragraphs</option>
+            <option value="quote_paragraphs">Sentences</option>
+            <option value="quote_lists">Lists</option>
+            <option value="quote_characters">Characters</option>
+          </select>
+          <label>Type</label>
         </div>
       </div>
-
-
-
     </form>
   </div>
 
