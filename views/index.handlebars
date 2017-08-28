@@ -8,13 +8,21 @@
   </div>
 
   <div class="row">
-    <form class="col s2">
+    <form class="col s12">
       <div class="row">
-        <div class="input-field col s12">
+        <div class="input-field col s2">
           <input id="quote_amount" type="number" class="validate" min="1" max="10">
           <label for="quote_amount" data-error="Number between 1-10" data-success="">Number of Paragraphs <small>(1 to 10)</small></label>
         </div>
+        <div class="col s4">
+          <input name="quote_type" type="radio" id="quote_paragraphs" checked><label for="quote_paragraphs">Paragraphs</label>
+          <input name="quote_type" type="radio" id="quote_lists"><label for="quote_lists">Lists</label>
+          <input name="quote_type" type="radio" id="quote_characters"><label for="quote_lists">Characters</label>
+        </div>
       </div>
+
+
+
     </form>
   </div>
 
@@ -28,9 +36,11 @@
   </div>
   <div class="row">
     <div class="col s12">
-      <p class="flow-text">
+
+
 <span class="randomquote"></span>
-      </p>
+
+
     </div>
   </div>
 
