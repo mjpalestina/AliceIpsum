@@ -20,14 +20,10 @@ $(".makeAliceIpsum").click(function(){
 
   //Get selected chapters
   var chapter = $('#aaiw_chapters').val();
-
-  //Error catch for no selection
-  if (chapter == null ) {
-      var chapter = ["missing"];
-      var ipsum = 0;
-      // $(".AliceIpsumLocation").append("<h3>Kindly select a chapter, if you would.</h3>");
-    };
-
+    //Error catch for no selection
+    if (chapter == null ) {
+        var chapter = ["aaiw_all"];
+      };
   console.log("Chapters", chapter);
 
   //Push selected chapters into array
@@ -47,6 +43,7 @@ $(".makeAliceIpsum").click(function(){
   var amount = $('#ipsum_amount').val();
   console.log("Amount", amount);
 
+//Loop through amount to output random AliceIpsum
   for (i = 0; i < amount; i++ ) {
 
     var random_ipsum = ipsum[Math.floor(Math.random()*ipsum.length)];
