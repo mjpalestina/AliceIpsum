@@ -5,33 +5,32 @@ $(document).ready(function() {
 new Clipboard('.copybutton');
 
 $(".copybutton").click(function(){
-console.log("Copy Me Clicked");
+console.log("Copy Me- Clicked");
   });
 
-var quotes = [];
+var ipsum = [];
 
-$(".quotebutton").click(function(){
+$(".makeAliceIpsum").click(function(){
 
-  var chapter = $('#asiw').val();
-console.log(chapter);
+//console.log(chapter);
 
   // if
   //
   // push asiw_chapter1
 
-  $(".randomquote").empty();
+  $(".AliceIpsumLocation").empty();
 
-  var amount = $('#quote_amount').val();
+  var amount = $('#ipsum_amount').val();
 
 console.log(amount);
 
   for (i = 0; i < amount; i++ ) {
 
-    var random_quote = quotes[Math.floor(Math.random()*quotes.length)];
+    var random_ipsum = ipsum[Math.floor(Math.random()*ipsum.length)];
 
-      $(".randomquote").append("<p>" + random_quote + "</p>");
+      $(".AliceIpsumLocation").append("<p>" + random_ipsum + "</p>");
 
-      console.log(random_quote);
+      console.log(random_ipsum);
 
   };
 
