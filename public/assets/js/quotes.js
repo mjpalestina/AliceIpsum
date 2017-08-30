@@ -1,4 +1,4 @@
-var quotes = [
+var asiw_chapter1 = [
 "Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, ‘and what is the use of a book,’ thought Alice ‘without pictures or conversations?’",
 
 "So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.",
@@ -44,15 +44,12 @@ var quotes = [
 "So she set to work, and very soon finished off the cake.",
 ];
 
-var chapter2 = [
+var asiw_chapter2 = [
 "‘Curiouser and curiouser!’ cried Alice (she was so much surprised, that for the moment she quite forgot how to speak good English); ‘now I’m opening out like the largest telescope that ever was! Good-bye, feet!’ (for when she looked down at her feet, they seemed to be almost out of sight, they were getting so far off). ‘Oh, my poor little feet, I wonder who will put on your shoes and stockings for you now, dears? I’m sure _I_ shan’t be able! I shall be a great deal too far off to trouble myself about you: you must manage the best way you can;--but I must be kind to them,’ thought Alice, ‘or perhaps they won’t walk the way I want to go! Let me see: I’ll give them a new pair of boots every Christmas.’",
 
 "And she went on planning to herself how she would manage it. ‘They must go by the carrier,’ she thought; ‘and how funny it’ll seem, sending presents to one’s own feet! And how odd the directions will look!",
 
-"ALICE’S RIGHT FOOT, ESQ.
-HEARTHRUG,
-NEAR THE FENDER,
-(WITH ALICE’S LOVE).",
+"ALICE’S RIGHT FOOT, ESQ.\n HEARTHRUG,\n NEAR THE FENDER,\n (WITH ALICE’S LOVE).",
 
 "Oh dear, what nonsense I’m talking!’",
 
@@ -68,15 +65,9 @@ NEAR THE FENDER,
 
 "‘I’m sure I’m not Ada,’ she said, ‘for her hair goes in such long ringlets, and mine doesn’t go in ringlets at all; and I’m sure I can’t be Mabel, for I know all sorts of things, and she, oh! she knows such a very little! Besides, SHE’S she, and I’m I, and--oh dear, how puzzling it all is! I’ll try if I know all the things I used to know. Let me see: four times five is twelve, and four times six is thirteen, and four times seven is--oh dear! I shall never get to twenty at that rate! However, the Multiplication Table doesn’t signify: let’s try Geography. London is the capital of Paris, and Paris is the capital of Rome, and Rome--no, THAT’S all wrong, I’m certain! I must have been changed for Mabel! I’ll try and say “How doth the little--“’ and she crossed her hands on her lap as if she were saying lessons, and began to repeat it, but her voice sounded hoarse and strange, and the words did not come the same as they used to do:--",
 
-"‘How doth the little crocodile
-Improve his shining tail,
-And pour the waters of the Nile
-On every golden scale!
+"‘How doth the little crocodile\n Improve his shining tail,\n And pour the waters of the Nile\n On every golden scale!",
 
-‘How cheerfully he seems to grin,
-How neatly spread his claws,
-And welcome little fishes in
-With gently smiling jaws!’",
+"‘How cheerfully he seems to grin,\n How neatly spread his claws,\n And welcome little fishes in\n With gently smiling jaws!’",
 
 "‘I’m sure those are not the right words,’ said poor Alice, and her eyes filled with tears again as she went on, ‘I must be Mabel after all, and I shall have to go and live in that poky little house, and have next to no toys to play with, and oh! ever so many lessons to learn! No, I’ve made up my mind about it; if I’m Mabel, I’ll stay down here! It’ll be no use their putting their heads down and saying “Come up again, dear!” I shall only look up and say “Who am I then? Tell me that first, and then, if I like being that person, I’ll come up: if not, I’ll stay down here till I’m somebody else”--but, oh dear!’ cried Alice, with a sudden burst of tears, ‘I do wish they WOULD put their heads down! I am so VERY tired of being all alone here!’",
 

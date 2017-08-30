@@ -3,11 +3,21 @@ $(document).ready(function() {
 });
 
 new Clipboard('.copybutton');
+
 $(".copybutton").click(function(){
 console.log("Copy Me Clicked");
   });
 
+var quotes = [];
+
 $(".quotebutton").click(function(){
+
+  var chapter = $('#asiw').val();
+console.log(chapter);
+
+  // if
+  //
+  // push asiw_chapter1
 
   $(".randomquote").empty();
 
