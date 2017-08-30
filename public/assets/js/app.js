@@ -8,15 +8,16 @@ $(".copybutton").click(function(){
 console.log("Copy Me- Clicked");
   });
 
-var ipsum = [];
+var ipsum = asiw_chapter1.concat(asiw_chapter2, asiw_chapter3);
 
 $(".makeAliceIpsum").click(function(){
 
-//console.log(chapter);
+var chapter = [];
 
-  // if
-  //
-  // push asiw_chapter1
+console.log(chapter);
+
+
+
 
   $(".AliceIpsumLocation").empty();
 
