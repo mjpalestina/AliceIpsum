@@ -8,7 +8,9 @@ $(".copybutton").click(function(){
 console.log("Copy Me- Clicked");
   });
 
-var ipsum = asiw_chapter1.concat(asiw_chapter2, asiw_chapter3);
+var aaiw = [];
+
+var ipsum = aaiw.concat(aaiw_chapter1, aaiw_chapter2, aaiw_chapter3);
 
 $(".makeAliceIpsum").click(function(){
 
