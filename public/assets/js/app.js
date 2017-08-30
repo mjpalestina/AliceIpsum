@@ -1,31 +1,51 @@
+//Materilize selct setup
 $(document).ready(function() {
   $('select').material_select();
 });
 
+//Copy to clipboard function
 new Clipboard('.copybutton');
 
 $(".copybutton").click(function(){
 console.log("Copy Me- Clicked");
   });
 
+//Blank array to hold selection
 var aaiw = [];
 
-var ipsum = aaiw.concat(aaiw_chapter1, aaiw_chapter2, aaiw_chapter3);
-
+//Ipsum generation
 $(".makeAliceIpsum").click(function(){
-
-var chapter = [];
-
-console.log(chapter);
-
-
-
-
+  //Emty previous ipsum
   $(".AliceIpsumLocation").empty();
 
-  var amount = $('#ipsum_amount').val();
+  //Get selected chapters
+  var chapter = $('#aaiw_chapters').val();
 
-console.log(amount);
+  //Error catch for no selection
+  if (chapter == null ) {
+      var chapter = ["missing"];
+      var ipsum = 0;
+      // $(".AliceIpsumLocation").append("<h3>Kindly select a chapter, if you would.</h3>");
+    };
+
+  console.log("Chapters", chapter);
+
+  //Push selected chapters into array
+  if (chapter.includes("aaiw_c1") || chapter.includes("aaiw_all")) {
+      var ipsum = aaiw.concat(aaiw_chapter1);
+    };
+
+  if (chapter.includes("aaiw_c2") || chapter.includes("aaiw_all")) {
+      var ipsum = aaiw.concat(aaiw_chapter2);
+    };
+
+  if (chapter.includes("aaiw_c3") || chapter.includes("aaiw_all")) {
+      var ipsum = aaiw.concat(aaiw_chapter3);
+    };
+
+  //Returns set amount
+  var amount = $('#ipsum_amount').val();
+  console.log("Amount", amount);
 
   for (i = 0; i < amount; i++ ) {
 
@@ -34,7 +54,6 @@ console.log(amount);
       $(".AliceIpsumLocation").append("<p>" + random_ipsum + "</p>");
 
       console.log(random_ipsum);
-
   };
 
 });
