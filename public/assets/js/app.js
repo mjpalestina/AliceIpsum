@@ -18,6 +18,9 @@ $(".makeAliceIpsum").click(function(){
   //Emty previous ipsum
   $(".AliceIpsumLocation").empty();
 
+  //Get selected Type
+  var output_type = $('#output_type').val();
+
   //Get selected chapters
   var chapter = $('#aaiw_chapters').val();
     //Error catch for no selection
@@ -43,10 +46,22 @@ $(".makeAliceIpsum").click(function(){
   var amount = $('#ipsum_amount').val();
   console.log("Amount", amount);
 
+//TESTING
+if (output_type.includes("quote_characters")) {
+  console.log("Quote Characters Selected");
+};
+
 //Loop through amount to output random AliceIpsum
+
   for (i = 0; i < amount; i++ ) {
 
     var random_ipsum = ipsum[Math.floor(Math.random()*ipsum.length)];
+
+      if (output_type.includes("quote_characters")) {
+        var random_ipsum = random_ipsum.substring(0, amount);
+        $(".AliceIpsumLocation").append(random_ipsum);
+      };
+
 
       $(".AliceIpsumLocation").append("<p>" + random_ipsum + "</p>");
 
