@@ -47,25 +47,23 @@ $(".makeAliceIpsum").click(function(){
   console.log("Amount", amount);
 
 //TESTING
-if (output_type.includes("quote_characters")) {
-  console.log("Quote Characters Selected");
-};
 
 //Loop through amount to output random AliceIpsum
 
+var random_ipsum = ipsum[Math.floor(Math.random()*ipsum.length)];
+
+if (output_type.includes("quote_characters")) {
+  var character_ipsum = random_ipsum.substring(0, amount ++);
+    console.log("character_ipsum:", character_ipsum);
+  $(".AliceIpsumLocation").append(character_ipsum);
+
+    } else {
+
   for (i = 0; i < amount; i++ ) {
-
-    var random_ipsum = ipsum[Math.floor(Math.random()*ipsum.length)];
-
-      if (output_type.includes("quote_characters")) {
-        var random_ipsum = random_ipsum.substring(0, amount);
-        $(".AliceIpsumLocation").append(random_ipsum);
-      };
-
-
       $(".AliceIpsumLocation").append("<p>" + random_ipsum + "</p>");
-
-      console.log(random_ipsum);
+    };
   };
+
+  console.log(random_ipsum);
 
 });
