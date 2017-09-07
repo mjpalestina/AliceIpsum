@@ -7,7 +7,7 @@ $(document).ready(function() {
 new Clipboard('.copybutton');
 
 $(".copybutton").click(function(){
-console.log("Copy Me- Clicked");
+    console.log("Copy Me- Clicked");
   });
 
 //Blank array to hold selection
@@ -15,6 +15,7 @@ var aaiw = [];
 
 //Ipsum generation
 $(".makeAliceIpsum").click(function(){
+
   //Emty previous ipsum
   $(".AliceIpsumLocation").empty();
 
@@ -23,11 +24,12 @@ $(".makeAliceIpsum").click(function(){
 
   //Get selected chapters
   var chapter = $('#aaiw_chapters').val();
+
     //Error catch for no selection
     if (chapter == null ) {
         var chapter = ["aaiw_all"];
       };
-  console.log("Chapters", chapter);
+        console.log("Chapters", chapter);
 
   //Push selected chapters into array
   if (chapter.includes("aaiw_c1") || chapter.includes("aaiw_all")) {
@@ -42,27 +44,26 @@ $(".makeAliceIpsum").click(function(){
       var ipsum = aaiw.concat(aaiw_chapter3);
     };
 
-  //Returns set amount
+//Returns set amount
   var amount = $('#ipsum_amount').val();
-  console.log("Amount", amount);
-
-//TESTING
+    console.log("Amount", amount);
 
 //Loop through amount to output random AliceIpsum
 
-var random_ipsum = ipsum[Math.floor(Math.random()*ipsum.length)];
 
-if (output_type.includes("quote_characters")) {
-  var character_ipsum = random_ipsum.substring(0, amount ++);
-    console.log("character_ipsum:", character_ipsum);
-  $(".AliceIpsumLocation").append(character_ipsum);
+  if (output_type.includes("quote_characters")) {
+    var random_ipsum = ipsum[Math.floor(Math.random()*ipsum.length)];
+    var character_ipsum = random_ipsum.substring(0, amount ++);
+      console.log("character_ipsum:", character_ipsum);
+    $(".AliceIpsumLocation").append(character_ipsum);
 
-    } else {
+      } else {
 
-  for (i = 0; i < amount; i++ ) {
-      $(".AliceIpsumLocation").append("<p>" + random_ipsum + "</p>");
+    for (i = 0; i < amount; i++ ) {
+      var random_ipsum = ipsum[Math.floor(Math.random()*ipsum.length)];
+        $(".AliceIpsumLocation").append("<p>" + random_ipsum + "</p>");
+      };
     };
-  };
 
   console.log(random_ipsum);
 
