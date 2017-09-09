@@ -69,8 +69,8 @@ $(".makeAliceIpsum").click(function(){
     var random_ipsum = ipsum[Math.floor(Math.random()*ipsum.length)];
 
     if (add_p_tag == true) {
-      var p_open = "open";
-      var p_close = "close";
+      var p_open = "&lt;p&gt;";
+      var p_close = "&lt;/p&gt;";
     };
 
       $(".AliceIpsumLocation").append("<br>", p_open, random_ipsum, p_close, + "<br>");
