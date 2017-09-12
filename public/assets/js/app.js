@@ -69,15 +69,26 @@ $(".makeAliceIpsum").click(function(){
   if (output_type.includes("book_characters")) {
     var random_ipsum = ipsum[Math.floor(Math.random()*ipsum.length)];
     var character_ipsum = random_ipsum.substring(0, amount ++);
-      console.log("Character- random_ipsum:", character_ipsum);
     $(".AliceIpsumLocation").prepend(p_open, character_ipsum, p_close, " ");
+      console.log("Character- random_ipsum:", character_ipsum);
 
   //If Paragraph is selected
   } else if (output_type.includes("book_paragraphs")) {
     for (i = 0; i < amount; i++ ) {
       var random_ipsum = ipsum[Math.floor(Math.random()*ipsum.length)];
-        $(".AliceIpsumLocation").prepend("<p>", p_open, random_ipsum, p_close, + "</p>");
-          console.log("Chapter- random_ipsum:", random_ipsum);
+    $(".AliceIpsumLocation").prepend("<p>", p_open, random_ipsum, p_close, + "</p>");
+      console.log("Chapter- random_ipsum:", random_ipsum);
     };
-  };
+
+  //If Sentences is selected
+  } else if (output_type.includes("book_sentences")) {
+
+      console.log("Chapter- book_sentences:", random_ipsum);
+
+  } else if (output_type.includes("book_words")) {
+
+      console.log("Chapter- book_words:", random_ipsum);
+
+    };
+
 });
