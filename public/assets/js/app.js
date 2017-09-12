@@ -13,6 +13,7 @@ $(".copybutton").click(function(){
 //Clear Button
 $(".clearAliceIpsum").click(function(){
     $(".AliceIpsumLocation").empty();
+      console.log("Clear Me- Clicked");
   });
 
 //Blank array to hold selection
@@ -35,12 +36,12 @@ $(".makeAliceIpsum").click(function(){
 
   //Get selected chapters
   var chapter = $('#aaiw_chapters').val();
+    console.log("Chapters:", chapter);
 
-  //Error catch for no selection
+  //Set null input to be all for error catching
   if (chapter == null ) {
       var chapter = ["aaiw_all"];
     };
-    console.log("Chapters:", chapter);
 
   //Push selected chapters into array
   if (chapter.includes("aaiw_c1") || chapter.includes("aaiw_all")) {
@@ -54,6 +55,8 @@ $(".makeAliceIpsum").click(function(){
   if (chapter.includes("aaiw_c3") || chapter.includes("aaiw_all")) {
       var ipsum = aaiw.concat(aaiw_chapter3);
     };
+
+ // console.log("ipsum:", ipsum);
 
 //Check if Paragraph Tags are requested
   if (add_p_tag == true) {
@@ -69,13 +72,12 @@ $(".makeAliceIpsum").click(function(){
       console.log("Character- random_ipsum:", character_ipsum);
     $(".AliceIpsumLocation").prepend(p_open, character_ipsum, p_close, " ");
 
-  } else {
   //If Paragraph is selected
-  for (i = 0; i < amount; i++ ) {
-    var random_ipsum = ipsum[Math.floor(Math.random()*ipsum.length)];
-
-      $(".AliceIpsumLocation").prepend("<br>", p_open, random_ipsum, p_close, + "<br>");
-        console.log("Chapter- random_ipsum:", random_ipsum);
+  } else if (output_type.includes("book_paragraphs")) {
+    for (i = 0; i < amount; i++ ) {
+      var random_ipsum = ipsum[Math.floor(Math.random()*ipsum.length)];
+        $(".AliceIpsumLocation").prepend("<p>", p_open, random_ipsum, p_close, + "</p>");
+          console.log("Chapter- random_ipsum:", random_ipsum);
     };
   };
 });
