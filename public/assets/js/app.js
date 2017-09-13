@@ -18,6 +18,7 @@ $(".clearAliceIpsum").click(function(){
 
 //Blank array to hold selection
 var aaiw = [];
+console.log(aaiw);
 
 //Ipsum generation
 $(".makeAliceIpsum").click(function(){
@@ -44,19 +45,28 @@ $(".makeAliceIpsum").click(function(){
     };
 
   //Push selected chapters into array
+  if (chapter.includes("aaiw_c0") || chapter.includes("aaiw_all")) {
+      var c0 = aaiw.concat(aaiw_chapter0);
+    };
+
   if (chapter.includes("aaiw_c1") || chapter.includes("aaiw_all")) {
-      var ipsum = aaiw.concat(aaiw_chapter1);
+      var c1 = aaiw.concat(aaiw_chapter1);
     };
 
   if (chapter.includes("aaiw_c2") || chapter.includes("aaiw_all")) {
-      var ipsum = aaiw.concat(aaiw_chapter2);
+      var c2 = aaiw.concat(aaiw_chapter2);
     };
 
   if (chapter.includes("aaiw_c3") || chapter.includes("aaiw_all")) {
-      var ipsum = aaiw.concat(aaiw_chapter3);
+      var c3 = aaiw.concat(aaiw_chapter3);
     };
 
- // console.log("ipsum:", ipsum);
+  //Array of selected chapters
+  var ipsum = aaiw.concat(c0, c1, c2, c3,);
+  //Removes undefined from array
+  ipsum = ipsum.filter(function(n){ return n != undefined });
+
+  console.log("ipsum:", ipsum);
 
 //Check if Paragraph Tags are requested
   if (add_p_tag == true) {
