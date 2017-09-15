@@ -1,7 +1,7 @@
 var aaiw_chapter0 = [
-"Test 1",
+"Test_1",
 "Test 2",
-"Test 3",
+"This is Test 3.",
 ];
 
 var aaiw_chapter1 = [
