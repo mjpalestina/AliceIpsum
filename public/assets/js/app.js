@@ -45,7 +45,7 @@ $(".makeAliceIpsum").click(function(){
     };
 
   //Push selected chapters into array
-  if (chapter.includes("aaiw_c0") || chapter.includes("aaiw_all")) {
+  if (chapter.includes("aaiw_c0")) {
       var c0 = aaiw.concat(aaiw_chapter0);
     };
 
@@ -75,14 +75,15 @@ $(".makeAliceIpsum").click(function(){
   };
 
 //Loop through amount to output random AliceIpsum
-  //If Characters is selected
+  //If Characters are selected
   if (output_type.includes("book_characters")) {
     var random_ipsum = ipsum[Math.floor(Math.random()*ipsum.length)];
     var character_ipsum = random_ipsum.substring(0, amount ++);
-    $(".AliceIpsumLocation").prepend(p_open, character_ipsum, p_close, " ");
-      console.log("Character- random_ipsum:", character_ipsum);
 
-  //If Paragraph is selected
+    $(".AliceIpsumLocation").prepend(p_open, character_ipsum, p_close, " ");
+      console.log("Character- character_ipsum:", character_ipsum);
+
+  //If Paragraphs are selected
   } else if (output_type.includes("book_paragraphs")) {
     for (i = 0; i < amount; i++ ) {
       var random_ipsum = ipsum[Math.floor(Math.random()*ipsum.length)];
@@ -90,15 +91,29 @@ $(".makeAliceIpsum").click(function(){
       console.log("Chapter- random_ipsum:", random_ipsum);
     };
 
-  //If Sentences is selected
+  //If Sentences are selected
   } else if (output_type.includes("book_sentences")) {
+    var random_ipsum = ipsum[Math.floor(Math.random()*ipsum.length)];
 
       console.log("Chapter- book_sentences:", random_ipsum);
 
+  //If Words are selected
   } else if (output_type.includes("book_words")) {
+    var random_ipsum = ipsum[Math.floor(Math.random()*ipsum.length)];
+    var word_ipsum_string = random_ipsum.toString();
+    var word_ipsum_replace = word_ipsum_string.replace(/[^\w\s]/gi, '');
+    var word_ipsum_split = word_ipsum_replace.split(" ", amount);
 
-      console.log("Chapter- book_words:", random_ipsum);
+      $(".AliceIpsumLocation").prepend(p_close, "<br>");
 
+    for (i = 0; i < amount; i++ ) {
+
+      var word_ipsum = word_ipsum_split[Math.floor(Math.random()*word_ipsum_split.length)];
+
+    $(".AliceIpsumLocation").prepend(word_ipsum, " ");
+      console.log("Chapter- book_words:", word_ipsum);
+      };
+      $(".AliceIpsumLocation").prepend(p_open);
     };
 
 });
