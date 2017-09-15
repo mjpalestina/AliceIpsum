@@ -76,11 +76,10 @@ $(".makeAliceIpsum").click(function(){
 
 //Loop through amount to output random AliceIpsum
   //If Characters are selected
-
-  //var ipsum_replace = ipsum_string.replace(/[^0-9a-zA-Z ]/g, '');
   if (output_type.includes("book_characters")) {
     var random_ipsum = ipsum[Math.floor(Math.random()*ipsum.length)];
-    var character_ipsum = random_ipsum.substring(0, amount ++);
+    var ipsum_replace = random_ipsum.replace(/[^0-9a-zA-Z]/g, '');
+    var character_ipsum = ipsum_replace.substring(0, amount ++);
 
     $(".AliceIpsumLocation").prepend(p_open, character_ipsum, p_close, " ");
       console.log("Character- character_ipsum:", character_ipsum);
@@ -110,10 +109,10 @@ $(".makeAliceIpsum").click(function(){
       var random_ipsum = ipsum_split[Math.floor(Math.random()*ipsum_split.length)];
 
       $(".AliceIpsumLocation").prepend(random_ipsum, " ");
-
+      console.log("Chapter- book_words:", random_ipsum);
       };
         $(".AliceIpsumLocation").prepend(p_open);
-console.log("Chapter- book_words:", random_ipsum);
+
     };
 
 });
