@@ -77,19 +77,25 @@ $(".makeAliceIpsum").click(function(){
 //Loop through amount to output random AliceIpsum
   //If Characters are selected
   if (output_type.includes("book_characters")) {
-    var random_ipsum = ipsum[Math.floor(Math.random()*ipsum.length)];
-    var ipsum_replace = random_ipsum.replace(/[^0-9a-zA-Z]/g, '');
-    var character_ipsum = ipsum_replace.substring(0, amount ++);
+    var ipsum_string = ipsum.toString();
+    var ipsum_replace = ipsum_string.replace(/[^0-9a-zA-Z]/g, '').toLowerCase();
 
-    $(".AliceIpsumLocation").prepend(p_open, character_ipsum, p_close, " ");
-      console.log("Character- character_ipsum:", character_ipsum);
+        $(".AliceIpsumLocation").prepend(p_close, "<br>");
+    for (i = 0; i < amount; i++ ) {
+      var random_ipsum = ipsum_replace[Math.floor(Math.random()*ipsum_replace.length)];
+
+    $(".AliceIpsumLocation").prepend(random_ipsum);
+      console.log("Chapter- book_characters:", random_ipsum);
+    };
+        $(".AliceIpsumLocation").prepend(p_open);
 
   //If Paragraphs are selected
   } else if (output_type.includes("book_paragraphs")) {
+
     for (i = 0; i < amount; i++ ) {
       var random_ipsum = ipsum[Math.floor(Math.random()*ipsum.length)];
     $(".AliceIpsumLocation").prepend("<p>", p_open, random_ipsum, p_close, + "</p>");
-      console.log("Chapter- random_ipsum:", random_ipsum);
+      console.log("Chapter- book_paragraphs:", random_ipsum);
     };
 
   //If Sentences are selected
