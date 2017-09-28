@@ -61,12 +61,16 @@ $(".makeAliceIpsum").click(function(){
       var c3 = aaiw.concat(aaiw_chapter3);
     };
 
-    if (chapter.includes("aaiw_c4") || chapter.includes("aaiw_all")) {
-        var c4 = aaiw.concat(aaiw_chapter4);
-      };
+  if (chapter.includes("aaiw_c4") || chapter.includes("aaiw_all")) {
+      var c4 = aaiw.concat(aaiw_chapter4);
+    };
+
+  if (chapter.includes("aaiw_c5") || chapter.includes("aaiw_all")) {
+      var c5 = aaiw.concat(aaiw_chapter5);
+    };
 
   //Array of selected chapters
-  var ipsum = aaiw.concat(c0, c1, c2, c3, c4,);
+  var ipsum = aaiw.concat(c0, c1, c2, c3, c4, c5,);
   //Removes undefined from array
   ipsum = ipsum.filter(function(n){ return n != undefined });
 
