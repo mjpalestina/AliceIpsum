@@ -73,8 +73,12 @@ $(".makeAliceIpsum").click(function(){
       var c6 = aaiw.concat(aaiw_chapter6);
     };
 
+  if (chapter.includes("aaiw_c7") || chapter.includes("aaiw_all")) {
+      var c7 = aaiw.concat(aaiw_chapter7);
+    };
+
   //Array of selected chapters
-  var ipsum = aaiw.concat(c0, c1, c2, c3, c4, c5, c6);
+  var ipsum = aaiw.concat(c0, c1, c2, c3, c4, c5, c6, c7);
   //Removes undefined from array
   ipsum = ipsum.filter(function(n){ return n != undefined });
 

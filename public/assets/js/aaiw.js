@@ -1,11 +1,6 @@
-var aaiw_chapter0 = [
-"Test_1",
-"Test 2",
-"This is Test 3.",
-"Test IV- A New Test!"
-"Test V- Testing Desktop Issue"
-];
+var aaiw_chapter0 = ["Test_1", "Test 2", "This is Test 3.", "Test IV- A New Test!",];
 
+//CHAPTER I- Down the Rabbit-Hole
 var aaiw_chapter1 = [
 "Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, ‘and what is the use of a book,’ thought Alice ‘without pictures or conversations?’",
 
@@ -52,6 +47,7 @@ var aaiw_chapter1 = [
 "So she set to work, and very soon finished off the cake.",
 ];
 
+//CHAPTER II- The Pool of Tears
 var aaiw_chapter2 = [
 "‘Curiouser and curiouser!’ cried Alice (she was so much surprised, that for the moment she quite forgot how to speak good English); ‘now I’m opening out like the largest telescope that ever was! Good-bye, feet!’ (for when she looked down at her feet, they seemed to be almost out of sight, they were getting so far off). ‘Oh, my poor little feet, I wonder who will put on your shoes and stockings for you now, dears? I’m sure _I_ shan’t be able! I shall be a great deal too far off to trouble myself about you: you must manage the best way you can;--but I must be kind to them,’ thought Alice, ‘or perhaps they won’t walk the way I want to go! Let me see: I’ll give them a new pair of boots every Christmas.’",
 
@@ -104,6 +100,7 @@ var aaiw_chapter2 = [
 "It was high time to go, for the pool was getting quite crowded with the birds and animals that had fallen into it: there were a Duck and a Dodo, a Lory and an Eaglet, and several other curious creatures. Alice led the way, and the whole party swam to the shore.",
 ];
 
+//CHAPTER III- A Caucus-Race and a Long Tale
 var aaiw_chapter3 = [
 "They were indeed a queer-looking party that assembled on the bank--the birds with draggled feathers, the animals with their fur clinging close to them, and all dripping wet, cross, and uncomfortable.",
 
@@ -202,6 +199,7 @@ var aaiw_chapter3 = [
 "‘I wish I hadn’t mentioned Dinah!’ she said to herself in a melancholy tone. ‘Nobody seems to like her, down here, and I’m sure she’s the best cat in the world! Oh, my dear Dinah! I wonder if I shall ever see you any more!’ And here poor Alice began to cry again, for she felt very lonely and low-spirited. In a little while, however, she again heard a little pattering of footsteps in the distance,  and she looked up eagerly, half hoping that the Mouse had changed his mind, and was coming back to finish his story.",
 ];
 
+//CHAPTER IV- The Rabbit Sends in a Little Bill
 var aaiw_chapter4 = [
 "It was the White Rabbit, trotting slowly back again, and looking anxiously about as it went, as if it had lost something; and she heard it muttering to itself ‘The Duchess! The Duchess! Oh my dear paws! Oh my fur and whiskers! She’ll get me executed, as sure as ferrets are ferrets! Where CAN I have dropped them, I wonder?’ Alice guessed in a moment that it was looking for the fan and the pair of white kid gloves, and she very good-naturedly began hunting about for them, but they were nowhere to be seen--everything seemed to have changed since her swim in the pool, and the great hall, with the glass table and the little door, had vanished completely.",
 
@@ -288,6 +286,7 @@ var aaiw_chapter4 = [
 "She stretched herself up on tiptoe, and peeped over the edge of the mushroom, and her eyes immediately met those of a large caterpillar, that was sitting on the top with its arms folded, quietly smoking a long hookah, and taking not the smallest notice of her or of anything else.",
 ];
 
+//CHAPTER V- Advice from a Caterpillar
 var aaiw_chapter5 = [
 "The Caterpillar and Alice looked at each other for some time in silence: at last the Caterpillar took the hookah out of its mouth, and addressed her in a languid, sleepy voice.",
 
@@ -440,6 +439,7 @@ var aaiw_chapter5 = [
 "It was so long since she had been anything near the right size, that it felt quite strange at first; but she got used to it in a few minutes, and began talking to herself, as usual. ‘Come, there’s half my plan done now! How puzzling all these changes are! I’m never sure what I’m going to be, from one minute to another! However, I’ve got back to my right size: the next thing is, to get into that beautiful garden--how IS that to be done, I wonder?’ As she said this, she came suddenly upon an open place, with a little house in it about four feet high. ‘Whoever lives there,’ thought Alice, ‘it’ll never do to come upon them THIS size: why, I should frighten them out of their wits!’ So she began nibbling at the righthand bit again, and did not venture to go near the house till she had brought herself down to nine inches high.",
 ];
 
+//CHAPTER VI- Pig and Pepper
 var aaiw_chapter6 = [
 "For a minute or two she stood looking at the house, and wondering what to do next, when suddenly a footman in livery came running out of the wood--(she considered him to be a footman because he was in livery: otherwise, judging by his face only, she would have called him a fish)--and rapped loudly at the door with his knuckles. It was opened by another footman in livery, with a round face, and large eyes like a frog; and both footmen, Alice noticed, had powdered hair that curled all over their heads. She felt very curious to know what it was all about, and crept a little way out of the wood to listen.",
 
@@ -596,6 +596,221 @@ var aaiw_chapter6 = [
 "‘Well! I’ve often seen a cat without a grin,’ thought Alice; ‘but a grin without a cat! It’s the most curious thing I ever saw in my life!’",
 
 "She had not gone much farther before she came in sight of the house of the March Hare: she thought it must be the right house, because the chimneys were shaped like ears and the roof was thatched with fur. It was so large a house, that she did not like to go nearer till she had nibbled some more of the lefthand bit of mushroom, and raised herself to about two feet high: even then she walked up towards it rather timidly, saying to herself ‘Suppose it should be raving mad after all! I almost wish I’d gone to see the Hatter instead!’",
+];
+
+//CHAPTER VII- A Mad Tea-Party
+var aaiw_chapter7 = [
+"There was a table set out under a tree in front of the house, and the March Hare and the Hatter were having tea at it: a Dormouse was sitting between them, fast asleep, and the other two were using it as a cushion, resting their elbows on it, and talking over its head. ‘Very uncomfortable for the Dormouse,’ thought Alice; ‘only, as it’s asleep, I suppose it doesn’t mind.’",
+
+"The table was a large one, but the three were all crowded together at one corner of it: ‘No room! No room!’ they cried out when they saw Alice coming. ‘There’s PLENTY of room!’ said Alice indignantly, and she sat down in a large arm-chair at one end of the table.",
+
+"‘Have some wine,’ the March Hare said in an encouraging tone.",
+
+"Alice looked all round the table, but there was nothing on it but tea. ‘I don’t see any wine,’ she remarked.",
+
+"‘There isn’t any,’ said the March Hare.",
+
+"‘Then it wasn’t very civil of you to offer it,’ said Alice angrily.",
+
+"‘It wasn’t very civil of you to sit down without being invited,’ said the March Hare.",
+
+"‘I didn’t know it was YOUR table,’ said Alice; ‘it’s laid for a great many more than three.’",
+
+"‘Your hair wants cutting,’ said the Hatter. He had been looking at Alice for some time with great curiosity, and this was his first speech.",
+
+"‘You should learn not to make personal remarks,’ Alice said with some severity; ‘it’s very rude.’",
+
+"The Hatter opened his eyes very wide on hearing this; but all he SAID was, ‘Why is a raven like a writing-desk?’",
+
+"‘Come, we shall have some fun now!’ thought Alice. ‘I’m glad they’ve begun asking riddles.--I believe I can guess that,’ she added aloud.",
+
+"‘Do you mean that you think you can find out the answer to it?’ said the March Hare.",
+
+"‘Exactly so,’ said Alice.",
+
+"‘Then you should say what you mean,’ the March Hare went on.",
+
+"‘I do,’ Alice hastily replied; ‘at least--at least I mean what I say--that’s the same thing, you know.’",
+
+"‘Not the same thing a bit!’ said the Hatter. ‘You might just as well say that “I see what I eat” is the same thing as “I eat what I see”!’",
+
+"‘You might just as well say,’ added the March Hare, ‘that “I like what I get” is the same thing as “I get what I like”!’",
+
+"‘You might just as well say,’ added the Dormouse, who seemed to be talking in his sleep, ‘that “I breathe when I sleep” is the same thing as “I sleep when I breathe”!’",
+
+"‘It IS the same thing with you,’ said the Hatter, and here the conversation dropped, and the party sat silent for a minute, while Alice thought over all she could remember about ravens and writing-desks, which wasn’t much.",
+
+"The Hatter was the first to break the silence. ‘What day of the month is it?’ he said, turning to Alice: he had taken his watch out of his pocket, and was looking at it uneasily, shaking it every now and then, and holding it to his ear.",
+
+"Alice considered a little, and then said ‘The fourth.’",
+
+"‘Two days wrong!’ sighed the Hatter. ‘I told you butter wouldn’t suit the works!’ he added looking angrily at the March Hare.",
+
+"‘It was the BEST butter,’ the March Hare meekly replied.",
+
+"‘Yes, but some crumbs must have got in as well,’ the Hatter grumbled: ‘you shouldn’t have put it in with the bread-knife.’",
+
+"The March Hare took the watch and looked at it gloomily: then he dipped it into his cup of tea, and looked at it again: but he could think of nothing better to say than his first remark, ‘It was the BEST butter, you know.’",
+
+"Alice had been looking over his shoulder with some curiosity. ‘What a funny watch!’ she remarked. ‘It tells the day of the month, and doesn’t tell what o’clock it is!’",
+
+"‘Why should it?’ muttered the Hatter. ‘Does YOUR watch tell you what year it is?’",
+
+"‘Of course not,’ Alice replied very readily: ‘but that’s because it stays the same year for such a long time together.’",
+
+"‘Which is just the case with MINE,’ said the Hatter.",
+
+"Alice felt dreadfully puzzled. The Hatter’s remark seemed to have no sort of meaning in it, and yet it was certainly English. ‘I don’t quite understand you,’ she said, as politely as she could.",
+
+"‘The Dormouse is asleep again,’ said the Hatter, and he poured a little hot tea upon its nose.",
+
+"The Dormouse shook its head impatiently, and said, without opening its eyes, ‘Of course, of course; just what I was going to remark myself.’",
+
+"‘Have you guessed the riddle yet?’ the Hatter said, turning to Alice again.",
+
+"‘No, I give it up,’ Alice replied: ‘what’s the answer?’",
+
+"‘I haven’t the slightest idea,’ said the Hatter.",
+
+"‘Nor I,’ said the March Hare.",
+
+"Alice sighed wearily. ‘I think you might do something better with the time,’ she said, ‘than waste it in asking riddles that have no answers.’",
+
+"‘If you knew Time as well as I do,’ said the Hatter, ‘you wouldn’t talk about wasting IT. It’s HIM.’",
+
+"‘I don’t know what you mean,’ said Alice.",
+
+"‘Of course you don’t!’ the Hatter said, tossing his head contemptuously. ‘I dare say you never even spoke to Time!’",
+
+"‘Perhaps not,’ Alice cautiously replied: ‘but I know I have to beat time when I learn music.’",
+
+"‘Ah! that accounts for it,’ said the Hatter. ‘He won’t stand beating. Now, if you only kept on good terms with him, he’d do almost anything you liked with the clock. For instance, suppose it were nine o’clock in the morning, just time to begin lessons: you’d only have to whisper a hint to Time, and round goes the clock in a twinkling! Half-past one, time for dinner!’",
+
+"(‘I only wish it was,’ the March Hare said to itself in a whisper.)",
+
+"‘That would be grand, certainly,’ said Alice thoughtfully: ‘but then--I shouldn’t be hungry for it, you know.’",
+
+"‘Not at first, perhaps,’ said the Hatter: ‘but you could keep it to half-past one as long as you liked.’",
+
+"‘Is that the way YOU manage?’ Alice asked.",
+
+"The Hatter shook his head mournfully. ‘Not I!’ he replied. ‘We quarrelled last March--just before HE went mad, you know--’ (pointing with his tea spoon at the March Hare,) ‘--it was at the great concert given by the Queen of Hearts, and I had to sing",
+
+"“Twinkle, twinkle, little bat!/\n How I wonder what you’re at!”",
+
+"You know the song, perhaps?’",
+
+"‘I’ve heard something like it,’ said Alice.",
+
+"‘It goes on, you know,’ the Hatter continued, ‘in this way:--",
+
+"“Up above the world you fly,/\n Like a tea-tray in the sky./\n Twinkle, twinkle--“’",
+
+"Here the Dormouse shook itself, and began singing in its sleep ‘Twinkle, twinkle, twinkle, twinkle--’ and went on so long that they had to pinch it to make it stop.",
+
+"‘Well, I’d hardly finished the first verse,’ said the Hatter, ‘when the Queen jumped up and bawled out, “He’s murdering the time! Off with his head!”’",
+
+"‘How dreadfully savage!’ exclaimed Alice.",
+
+"‘And ever since that,’ the Hatter went on in a mournful tone, ‘he won’t do a thing I ask! It’s always six o’clock now.’",
+
+"A bright idea came into Alice’s head. ‘Is that the reason so many tea-things are put out here?’ she asked.",
+
+"‘Yes, that’s it,’ said the Hatter with a sigh: ‘it’s always tea-time, and we’ve no time to wash the things between whiles.’",
+
+"‘Then you keep moving round, I suppose?’ said Alice.",
+
+"‘Exactly so,’ said the Hatter: ‘as the things get used up.’",
+
+"‘But what happens when you come to the beginning again?’ Alice ventured to ask.",
+
+"‘Suppose we change the subject,’ the March Hare interrupted, yawning.",
+
+"‘I’m getting tired of this. I vote the young lady tells us a story.’",
+
+"‘I’m afraid I don’t know one,’ said Alice, rather alarmed at the proposal.",
+
+"‘Then the Dormouse shall!’ they both cried. ‘Wake up, Dormouse!’ And they pinched it on both sides at once.",
+
+"The Dormouse slowly opened his eyes. ‘I wasn’t asleep,’ he said in a hoarse, feeble voice: ‘I heard every word you fellows were saying.’",
+
+"‘Tell us a story!’ said the March Hare.",
+
+"‘Yes, please do!’ pleaded Alice.",
+
+"‘And be quick about it,’ added the Hatter, ‘or you’ll be asleep again before it’s done.’",
+
+"‘Once upon a time there were three little sisters,’ the Dormouse began in a great hurry; ‘and their names were Elsie, Lacie, and Tillie; and they lived at the bottom of a well--’",
+
+"‘What did they live on?’ said Alice, who always took a great interest in questions of eating and drinking.",
+
+"‘They lived on treacle,’ said the Dormouse, after thinking a minute or two.",
+
+"‘They couldn’t have done that, you know,’ Alice gently remarked; ‘they’d have been ill.’",
+
+"‘So they were,’ said the Dormouse; ‘VERY ill.’",
+
+"Alice tried to fancy to herself what such an extraordinary ways of living would be like, but it puzzled her too much, so she went on: ‘But why did they live at the bottom of a well?’",
+
+"‘Take some more tea,’ the March Hare said to Alice, very earnestly.",
+
+"‘I’ve had nothing yet,’ Alice replied in an offended tone, ‘so I can’t take more.’",
+
+"‘You mean you can’t take LESS,’ said the Hatter: ‘it’s very easy to take MORE than nothing.’",
+
+"‘Nobody asked YOUR opinion,’ said Alice.",
+
+"‘Who’s making personal remarks now?’ the Hatter asked triumphantly.",
+
+"Alice did not quite know what to say to this: so she helped herself to some tea and bread-and-butter, and then turned to the Dormouse, and repeated her question. ‘Why did they live at the bottom of a well?’",
+
+"The Dormouse again took a minute or two to think about it, and then said, ‘It was a treacle-well.’",
+
+"‘There’s no such thing!’ Alice was beginning very angrily, but the Hatter and the March Hare went ‘Sh! sh!’ and the Dormouse sulkily remarked, ‘If you can’t be civil, you’d better finish the story for yourself.’",
+
+"‘No, please go on!’ Alice said very humbly; ‘I won’t interrupt again. I dare say there may be ONE.’",
+
+"‘One, indeed!’ said the Dormouse indignantly. However, he consented to go on. ‘And so these three little sisters--they were learning to draw, you know--’",
+
+"‘What did they draw?’ said Alice, quite forgetting her promise.",
+
+"‘Treacle,’ said the Dormouse, without considering at all this time.",
+
+"‘I want a clean cup,’ interrupted the Hatter: ‘let’s all move one place on.’",
+
+"He moved on as he spoke, and the Dormouse followed him: the March Hare moved into the Dormouse’s place, and Alice rather unwillingly took the place of the March Hare. The Hatter was the only one who got any advantage from the change: and Alice was a good deal worse off than before, as the March Hare had just upset the milk-jug into his plate.",
+
+"Alice did not wish to offend the Dormouse again, so she began very cautiously: ‘But I don’t understand. Where did they draw the treacle from?’",
+
+"‘You can draw water out of a water-well,’ said the Hatter; ‘so I should think you could draw treacle out of a treacle-well--eh, stupid?’",
+
+"‘But they were IN the well,’ Alice said to the Dormouse, not choosing to notice this last remark.",
+
+"‘Of course they were’, said the Dormouse; ‘--well in.’",
+
+"This answer so confused poor Alice, that she let the Dormouse go on for some time without interrupting it.",
+
+"‘They were learning to draw,’ the Dormouse went on, yawning and rubbing its eyes, for it was getting very sleepy; ‘and they drew all manner of things--everything that begins with an M--’",
+
+"‘Why with an M?’ said Alice.",
+
+"‘Why not?’ said the March Hare.",
+
+"Alice was silent.",
+
+"The Dormouse had closed its eyes by this time, and was going off into a doze; but, on being pinched by the Hatter, it woke up again with a little shriek, and went on: ‘--that begins with an M, such as mouse-traps, and the moon, and memory, and muchness--you know you say things are “much of a muchness”--did you ever see such a thing as a drawing of a muchness?’",
+
+"‘Really, now you ask me,’ said Alice, very much confused, ‘I don’t think--’",
+
+"‘Then you shouldn’t talk,’ said the Hatter.",
+
+"This piece of rudeness was more than Alice could bear: she got up in great disgust, and walked off; the Dormouse fell asleep instantly, and neither of the others took the least notice of her going, though she looked back once or twice, half hoping that they would call after her: the last time she saw them, they were trying to put the Dormouse into the teapot.",
+
+"‘At any rate I’ll never go THERE again!’ said Alice as she picked her way through the wood. ‘It’s the stupidest tea-party I ever was at in all my life!’",
+
+"Just as she said this, she noticed that one of the trees had a door leading right into it. ‘That’s very curious!’ she thought. ‘But everything’s curious today. I think I may as well go in at once.’ And in she went.",
+
+"Once more she found herself in the long hall, and close to the little glass table. ‘Now, I’ll manage better this time,’ she said to herself, and began by taking the little golden key, and unlocking the door that led into the garden. Then she went to work nibbling at the mushroom (she had kept a piece of it in her pocket) till she was about a foot high: then she walked down the little passage: and THEN--she found herself at last in the beautiful garden, among the bright flower-beds and the cool fountains.,",
 ];
 
 var poems = [
