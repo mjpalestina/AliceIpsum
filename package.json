@@ -17,13 +17,13 @@
   },
   "homepage": "https://github.com/marcpalestina/AliceIpsum#readme",
   "dependencies": {
-    "body-parser": "^1.17.2",
-    "clipboard": "^1.7.1",
-    "express": "^4.15.4",
-    "express-handlebars": "^3.0.0",
-    "handlebars": "^4.1.2",
-    "mongojs": "^2.4.1",
-    "mongoose": "^4.11.7",
-    "request": "^2.81.0"
+    "body-parser": "^1.19.0",
+    "clipboard": "^2.0.6",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.3",
+    "handlebars": "^4.7.6",
+    "mongojs": "^3.1.0",
+    "mongoose": "^5.9.9",
+    "request": "^2.88.2"
   }
 }
